@@ -13,7 +13,7 @@ Below code is ok, tree shaking only used methods
 ```ts
 import * as Rx from 'rxjs/operators';
 
-const foo2 = (args: any[]) => Rx.concat(args);
+const foo2 = (...args: any[]) => Rx.concat(args);
 console.log(foo2);
 
 ```
