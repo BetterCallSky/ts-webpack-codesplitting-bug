@@ -1,5 +1,7 @@
 # Tree shaking bug with spread operator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/BetterCallSky/ts-webpack-treeshaking-bug.svg)](https://greenkeeper.io/)
+
 
 Below code includes the whole RXJS library
 ```ts
